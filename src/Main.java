@@ -18,5 +18,7 @@ public class Main {
         root.addItem(pictures);
 
         System.out.println(FileSystemAnalyzer.countFilesRecursive(root));
+        System.out.println(FileSystemAnalyzer.calculateTotalSizeRecursive(root));
+        System.out.println(FileSystemAnalyzer.findLargestFileRecursive(root).getName());
     }
 }
